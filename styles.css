@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+}
+.header {
+  background-color: black;
+  color: white;
+  height: 75px;
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-left: 12vh;
+  padding-right: 12vh;
+}
+.h-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.h-right {
+  padding-top: 2vh;
+}
+img {
+  width: 20vh;
+  height: 7vh;
+  padding-top: 1vh;
+}
+.v-line {
+  padding-left: 40px;
+  font-size: 7vh;
+}
+.list {
+  padding-top: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+.list-item {
+  font-size: 3vh;
+  padding-left: 5vh;
+}
+.btn {
+  height: 5vh;
+  width: 20vh;
+  background-color: #ba0cc5;
+  color: white;
+  border-radius: 8px;
+}
+.main {
+  height: 532px;
+  background-image: url("./Assets//bg.png");
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text1 {
+  padding-top: 150px;
+  width: 850px;
+  font-size: 80px;
+  font-weight: bold;
+}
+.text2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.button {
+  padding-top: 30px;
+}
+.btn2 {
+  height: 8vh;
+  width: 40vh;
+  background-color: #ba0cc5;
+  color: white;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
